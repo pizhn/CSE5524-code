@@ -17,8 +17,6 @@ conda activate cse5524_env
 pip install -r requirements.txt
 ```
 
-```bash
-
 # Train
 
 ```bash
