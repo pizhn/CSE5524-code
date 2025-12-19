@@ -1,0 +1,27 @@
+beta1: 0.9
+beta2: 0.999
+d_model: 64
+data_files: []
+downsample_factor: 3
+epochs: 500
+eta_min: 3e-5
+eval_batch_size: 256
+future_len: 33
+hist_len: 110
+idx_target:
+- 3
+independent_modes: true
+lr: 0.0003
+n_head: 4
+n_modes: 1
+num_layers: 4
+save_path: accumulative/6004874/20230118-1mode
+test_pkl:
+- /users/PAS2099/ping69852/ps/SWIRL/irl_mouse/data_processed/ours/6004874/20230118/01_normed.pkl
+- /users/PAS2099/ping69852/ps/SWIRL/irl_mouse/data_processed/ours/6004874/20230118/03_normed.pkl
+- /users/PAS2099/ping69852/ps/SWIRL/irl_mouse/data_processed/ours/6004874/20230118/05_normed.pkl
+train_batch_size: 64
+train_pkl:
+- /users/PAS2099/ping69852/ps/SWIRL/irl_mouse/data_processed/ours/6004874/20230117/01_normed.pkl
+- /users/PAS2099/ping69852/ps/SWIRL/irl_mouse/data_processed/ours/6004874/20230117/03_normed.pkl
+- /users/PAS2099/ping69852/ps/SWIRL/irl_mouse/data_processed/ours/6004874/20230117/05_normed.pkl
